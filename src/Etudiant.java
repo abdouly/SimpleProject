@@ -41,6 +41,10 @@ public class Etudiant {
                 '}';
     }
 
+    public int hashCode() {
+        return nom.hashCode()+prenom.hashCode();
+    }
+
     public static void main(String [] args) {
         Etudiant etudiant = new Etudiant("diallo","mariam",21,343445);
         System.out.println(etudiant.toString());
