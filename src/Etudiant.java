@@ -49,5 +49,9 @@ public class Etudiant {
         Etudiant etudiant = new Etudiant("diallo","mariam",21,343445);
         System.out.println(etudiant.toString());
     }
+
+    public void affichage() {
+
+    }
 }
 
